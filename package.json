@@ -1,0 +1,12 @@
+{
+  "title": "WP переглядач",
+  "category": "Apps",
+  "description": "Переглядач WP адмінки",
+  "main": "app.js",
+  "dependencies": {
+    "promise": "^6.1.0",
+    "whatwg-fetch": "^0.7.0",
+    "lodash": "^4.0.0",
+    "tabris": "^1.5.0"
+  }
+}

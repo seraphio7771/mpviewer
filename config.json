@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "settings": {
+    "operation_mode": "test",
+    "api": "http://whitephoenix.com.ua/wh/api"
+  }
+}
