@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
   "settings": {
+    "googleTrackId": "UA-75624684-1",
     "operation_mode": "test",
     "api": "http://whitephoenix.com.ua/wh/api"
   }
