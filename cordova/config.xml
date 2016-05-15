@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.sergiydomanitskiy.wpviewer" version="1.0.0">
-  <name>WP переглядач</name>
+<widget id="com.sergiydomanitskiy.wpviewer" version="1.0.1">
+  <name>MP переглядач</name>
   <description>
-    Переглядач WP адмінки
+    Переглядач MP видань
   </description>
   <content src="package.json" />
   <preference name="Fullscreen" value="false" />
