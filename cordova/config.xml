@@ -17,5 +17,5 @@
   </platform>
   <plugin name="cordova-plugin-dialogs" version="1.2.1" />
   <plugin name="com.cmackay.plugins.googleanalytics" version="0.1.22" />
-  <plugin name="phonegap-plugin-barcodescanner" version="5.0.0" />
+  <plugin name="phonegap-plugin-barcodescanner" version="4.1.0" />
 </widget>
