@@ -1,21 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.sergiydomanitskiy.mpviewer" version="1.0.0">
-  <name>MP переглядач</name>
-  <description>
-    Переглядач MP видань
-  </description>
-  <content src="package.json" />
-  <preference name="Fullscreen" value="false" />
-  <platform name="android">
-    <preference name="android-minSdkVersion" value="16" />
-    <icon src="res/android/ldpi.png" density="ldpi" />
-    <icon src="res/android/mdpi.png" density="mdpi" />
-    <icon src="res/android/hdpi.png" density="hdpi" />
-    <icon src="res/android/xhdpi.png" density="xhdpi" />
-    <icon src="res/android/xxhdpi.png" density="xxhdpi" />
-    <icon src="res/android/xxxhdpi.png" density="xxxhdpi" />
-  </platform>
-  <plugin name="cordova-plugin-dialogs" version="1.2.1" />
-  <plugin name="com.cmackay.plugins.googleanalytics" version="0.1.22" />
-  <plugin name="phonegap-plugin-barcodescanner" version="4.1.0" />
+<widget android-versionCode="1" id="com.sergiydomanitskiy.mpviewer" version="0.0.1" xmlns="http://www.w3.org/ns/widgets">
+    <name>MobPress - переглядач</name>
+    <description>
+        Переглядач неопублікованих видань з mobpress.com.ua
+    </description>
+    <author email="seraphio777@gmail.com" href="http://sergiy-domanitskiy.com">
+        Сергій Доманіцький
+    </author>
+    <access origin="*" />
+
+    <plugin name="cordova-plugin-dialogs" version="1.2.1" />
+    <plugin name="com.cmackay.plugins.googleanalytics" version="0.1.22" />
+    <plugin name="phonegap-plugin-barcodescanner" version="4.1.0" />
+
+    <platform name="android">
+        <icon src="res/android/ldpi.png" density="ldpi" />
+        <icon src="res/android/mdpi.png" density="mdpi" />
+        <icon src="res/android/hdpi.png" density="hdpi" />
+        <icon src="res/android/xhdpi.png" density="xhdpi" />
+        <icon src="res/android/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/android/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
 </widget>
+
